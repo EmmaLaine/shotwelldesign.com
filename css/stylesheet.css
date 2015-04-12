@@ -1,0 +1,122 @@
+body {
+	text-align: center;
+	background-size: 1584px 1770px;
+	bacground-repeat: no repeat;
+	background-image: url(file:///C|/Users/Emma/Documents/1%20Websites/Lindsey%27s%20Site/img/background-img.png);
+}
+.container1 {
+	background:;
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 30px 30px 5px 30px;
+	
+}
+.logo {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 30px;
+}
+.topnav{
+	float: right;
+	padding-right: 30px;
+	margin-top: -40px;	
+}
+.topnav ul {
+	padding: 0;
+	list-style: none;
+	position: relative;
+	display: block;
+}	
+.topnav li {
+	display: inline-block;
+}
+.topnav a,
+.topnav a:link {
+	color: #FFF;
+	display: block;
+	text-decoration: none;
+	padding: 5px 30px;
+}
+.topnav a:hover,
+.topnav a:focus,
+.topnav a:active {
+	background-color: #cccc33;
+	color: #000;
+}
+.topnav ul li ul{
+	background:darkgrey;
+	visibility:hidden;
+	float:right;
+	width: 160px;
+	position:absolute;
+	transition: visibility 0.65s ease-in;
+	z-index:999;
+}
+.topnav ul li:hover> ul,
+.topnav ul li ul:hover{
+	visibility: visible;
+}
+.topnav ul li ul li{
+	clear:both;
+	padding: 0;
+	width: 160px;
+	font-size: 12px;
+}
+.topnav ul ul ul{
+	left: 100%;
+	top:0;
+	margin-top: 0;
+}
+main {
+	margin-top: px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+main h1 {
+	margin-left: 40;
+}
+.thumbnails {
+	border-radius: 3px;
+	display:table;
+	list-style: none;
+	padding: 2px;
+	width: 100%;
+}
+.thumbnails li {
+	display: table-cell;
+}
+figure {
+	display: block;
+	width: 251px;
+	height: 206px;
+	background-color: #cccc33;
+	margin: 10px 20px 10px -5px;
+	padding: 3px;		
+}
+img.align-center {
+	display: block;
+	margin: 0px auto;	
+}
+img.medium {
+	width: 500px;
+	height: 373px;	
+}
+footer {
+	border-top: 1px solid black;
+	text-align: center;		
+}
+footer li {
+	margin: -10px;	
+}
+/* helper class */
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
